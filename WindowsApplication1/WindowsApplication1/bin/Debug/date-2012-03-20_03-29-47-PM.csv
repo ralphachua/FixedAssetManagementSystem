@@ -1,0 +1,8 @@
+Start Date:,01/01/1900, ,End Date:,03/20/2012
+
+Asset ID,Asset Name,Asset Category,Category Type,Status,Date,Particulars,Type of Transaction,Cost,Remarks,
+LI3,dasd,5,Leasehold Improvement,For Repair,10/9/1995 12:00:00 AM,part      ,type      ,1000.00,remarks,
+ME1,Edited,4,Machinery,Disposed,1/8/1993 12:00:00 AM,ds        ,type      ,12.00,rem,
+TE2,dasda,2,Transportation Equipment,Fully Depreciated,1/8/1993 12:00:00 AM,part      ,type      ,1.00,rem,
+TO3,Box,6,Tools,For Repair,11/11/2009 12:00:00 AM,asdfasdf  ,asdfas    ,12.44,Hello,
+TO3,Box,6,Tools,For Repair,12/2/2010 12:00:00 AM,asdfasdf  ,adsfsdfff ,12.55,Haha,

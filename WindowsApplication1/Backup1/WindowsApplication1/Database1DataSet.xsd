@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Database1DataSet" targetNamespace="http://tempuri.org/Database1DataSet.xsd" xmlns:mstns="http://tempuri.org/Database1DataSet.xsd" xmlns="http://tempuri.org/Database1DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Database1ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="Database1ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.Properties.Settings.GlobalReference.Default.Database1ConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Database1DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Database1DataSet" msprop:Generator_DataSetName="Database1DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Asset_x0020_Info" msprop:Generator_UserTableName="Asset Info" msprop:Generator_RowDeletedName="Asset_InfoRowDeleted" msprop:Generator_RowChangedName="Asset_InfoRowChanged" msprop:Generator_RowClassName="Asset_InfoRow" msprop:Generator_RowChangingName="Asset_InfoRowChanging" msprop:Generator_RowEvArgName="Asset_InfoRowChangeEvent" msprop:Generator_RowEvHandlerName="Asset_InfoRowChangeEventHandler" msprop:Generator_TableClassName="Asset_InfoDataTable" msprop:Generator_TableVarName="tableAsset_Info" msprop:Generator_RowDeletingName="Asset_InfoRowDeleting" msprop:Generator_TablePropName="Asset_Info">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Asset_x0020_ID" msprop:Generator_UserColumnName="Asset ID" msprop:Generator_ColumnPropNameInRow="Asset_ID" msprop:Generator_ColumnVarNameInTable="columnAsset_ID" msprop:Generator_ColumnPropNameInTable="Asset_IDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Asset_x0020_Name" msprop:Generator_UserColumnName="Asset Name" msprop:Generator_ColumnPropNameInRow="Asset_Name" msprop:Generator_ColumnVarNameInTable="columnAsset_Name" msprop:Generator_ColumnPropNameInTable="Asset_NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Asset_x0020_Acquisition_x0020_Cost" msprop:Generator_UserColumnName="Asset Acquisition Cost" msprop:Generator_ColumnPropNameInRow="Asset_Acquisition_Cost" msprop:Generator_ColumnVarNameInTable="columnAsset_Acquisition_Cost" msprop:Generator_ColumnPropNameInTable="Asset_Acquisition_CostColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Asset_x0020_Depreciation_x0020_Years" msprop:Generator_UserColumnName="Asset Depreciation Years" msprop:Generator_ColumnPropNameInRow="Asset_Depreciation_Years" msprop:Generator_ColumnVarNameInTable="columnAsset_Depreciation_Years" msprop:Generator_ColumnPropNameInTable="Asset_Depreciation_YearsColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Asset_x0020_Useful_x0020_Life" msprop:Generator_UserColumnName="Asset Useful Life" msprop:Generator_ColumnPropNameInRow="Asset_Useful_Life" msprop:Generator_ColumnVarNameInTable="columnAsset_Useful_Life" msprop:Generator_ColumnPropNameInTable="Asset_Useful_LifeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Asset_x0020_Category" msprop:Generator_UserColumnName="Asset Category" msprop:Generator_ColumnPropNameInRow="Asset_Category" msprop:Generator_ColumnVarNameInTable="columnAsset_Category" msprop:Generator_ColumnPropNameInTable="Asset_CategoryColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="History" msprop:Generator_UserTableName="History" msprop:Generator_RowDeletedName="HistoryRowDeleted" msprop:Generator_RowChangedName="HistoryRowChanged" msprop:Generator_RowClassName="HistoryRow" msprop:Generator_RowChangingName="HistoryRowChanging" msprop:Generator_RowEvArgName="HistoryRowChangeEvent" msprop:Generator_RowEvHandlerName="HistoryRowChangeEventHandler" msprop:Generator_TableClassName="HistoryDataTable" msprop:Generator_TableVarName="tableHistory" msprop:Generator_RowDeletingName="HistoryRowDeleting" msprop:Generator_TablePropName="History">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Asset_x0020_ID" msprop:Generator_UserColumnName="Asset ID" msprop:Generator_ColumnPropNameInRow="Asset_ID" msprop:Generator_ColumnVarNameInTable="columnAsset_ID" msprop:Generator_ColumnPropNameInTable="Asset_IDColumn" type="xs:string" />
+              <xs:element name="Date" msprop:Generator_UserColumnName="Date" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInTable="DateColumn" type="xs:string" />
+              <xs:element name="Particulars" msprop:Generator_UserColumnName="Particulars" msprop:Generator_ColumnPropNameInRow="Particulars" msprop:Generator_ColumnVarNameInTable="columnParticulars" msprop:Generator_ColumnPropNameInTable="ParticularsColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Type_x0020_of_x0020_Transaction" msprop:Generator_UserColumnName="Type of Transaction" msprop:Generator_ColumnPropNameInRow="Type_of_Transaction" msprop:Generator_ColumnVarNameInTable="columnType_of_Transaction" msprop:Generator_ColumnPropNameInTable="Type_of_TransactionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Cost" msprop:Generator_UserColumnName="Cost" msprop:Generator_ColumnPropNameInRow="Cost" msprop:Generator_ColumnVarNameInTable="columnCost" msprop:Generator_ColumnPropNameInTable="CostColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Remarks" msprop:Generator_UserColumnName="Remarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Depreciation_x0020_Years" msprop:Generator_UserTableName="Depreciation Years" msprop:Generator_RowDeletedName="Depreciation_YearsRowDeleted" msprop:Generator_TableClassName="Depreciation_YearsDataTable" msprop:Generator_RowChangedName="Depreciation_YearsRowChanged" msprop:Generator_RowClassName="Depreciation_YearsRow" msprop:Generator_RowChangingName="Depreciation_YearsRowChanging" msprop:Generator_RowEvArgName="Depreciation_YearsRowChangeEvent" msprop:Generator_RowEvHandlerName="Depreciation_YearsRowChangeEventHandler" msprop:Generator_TablePropName="Depreciation_Years" msprop:Generator_TableVarName="tableDepreciation_Years" msprop:Generator_RowDeletingName="Depreciation_YearsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Category" msprop:Generator_UserColumnName="Category" msprop:Generator_ColumnPropNameInRow="Category" msprop:Generator_ColumnVarNameInTable="columnCategory" msprop:Generator_ColumnPropNameInTable="CategoryColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Depreciation_x0020_Years" msprop:Generator_UserColumnName="Depreciation Years" msprop:Generator_ColumnPropNameInRow="Depreciation_Years" msprop:Generator_ColumnVarNameInTable="columnDepreciation_Years" msprop:Generator_ColumnPropNameInTable="Depreciation_YearsColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="DataTable1Key1">
+      <xs:selector xpath=".//mstns:Asset_x0020_Info" />
+      <xs:field xpath="mstns:Asset_x0020_ID" />
+    </xs:unique>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:History" />
+      <xs:field xpath="mstns:Date" />
+    </xs:unique>
+    <xs:unique name="Constraint2">
+      <xs:selector xpath=".//mstns:History" />
+      <xs:field xpath="mstns:Asset_x0020_ID" />
+    </xs:unique>
+    <xs:unique name="Depreciation_x0020_YearsKey1">
+      <xs:selector xpath=".//mstns:Depreciation_x0020_Years" />
+      <xs:field xpath="mstns:Category" />
+    </xs:unique>
+    <xs:keyref name="FK_Asset_x0020_Info_History" refer="DataTable1Key1" msprop:rel_Generator_UserRelationName="FK_Asset Info_History" msprop:rel_Generator_RelationVarName="relationFK_Asset_Info_History" msprop:rel_Generator_UserChildTable="History" msprop:rel_Generator_UserParentTable="Asset Info" msprop:rel_Generator_ParentPropName="Asset_InfoRow" msprop:rel_Generator_ChildPropName="GetHistoryRows">
+      <xs:selector xpath=".//mstns:History" />
+      <xs:field xpath="mstns:Asset_x0020_ID" />
+    </xs:keyref>
+    <xs:keyref name="FK_History_Asset_x0020_Info" refer="Constraint2" msprop:rel_Generator_UserRelationName="FK_History_Asset Info" msprop:rel_Generator_RelationVarName="relationFK_History_Asset_Info" msprop:rel_Generator_UserChildTable="Asset Info" msprop:rel_Generator_UserParentTable="History" msprop:rel_Generator_ParentPropName="HistoryRow" msprop:rel_Generator_ChildPropName="GetAsset_InfoRows">
+      <xs:selector xpath=".//mstns:Asset_x0020_Info" />
+      <xs:field xpath="mstns:Asset_x0020_ID" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>
